@@ -11,7 +11,7 @@
 		B07D5C891CD2C703007EDE9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D5C881CD2C703007EDE9B /* AppDelegate.m */; };
 		B07D5C8C1CD2C703007EDE9B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D5C8B1CD2C703007EDE9B /* FirstViewController.m */; };
 		B07D5C8F1CD2C703007EDE9B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D5C8E1CD2C703007EDE9B /* SecondViewController.m */; };
-		B07D5C921CD2C703007EDE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07D5C901CD2C703007EDE9B /* Main.storyboard */; };
+		B07D5C921CD2C703007EDE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07D5C901CD2C703007EDE9B /* Main.storyboard */; settings = {ASSET_TAGS = (Laundh, ); }; };
 		B07D5C941CD2C703007EDE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07D5C931CD2C703007EDE9B /* Assets.xcassets */; };
 		B07D5C971CD2C703007EDE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07D5C951CD2C703007EDE9B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -29,6 +29,7 @@
 		B07D5C931CD2C703007EDE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07D5C961CD2C703007EDE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07D5C981CD2C703007EDE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07D5C9F1CD2CAD4007EDE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,9 @@
 		B07D5C791CD2C703007EDE9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Laundh,
+				);
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Surfside Software Solutions";
 				TargetAttributes = {
@@ -168,6 +172,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B07D5C911CD2C703007EDE9B /* Base */,
+				B07D5C9F1CD2CAD4007EDE9B /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
